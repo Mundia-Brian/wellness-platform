@@ -1,30 +1,67 @@
 {
   "name": "Afya Ray Wellness",
   "slug": "afya-ray",
-  "tagline": "Photo/Light Therapy for Natural Body Recovery",
-  "description": "Proven results in treating cysts, heart conditions, numbness, diabetes, hypertension, body pain, aging, arthritis, fibroids and other health conditions.",
+  "tagline": "Natural Photo/Light Therapy for Holistic Healing",
+  "description": "Advanced photo and light therapy treatments that stimulate your body's natural healing processes. Proven results for various health conditions using non-invasive, natural methods.",
   "colors": {
     "primary": "#10B981",
     "secondary": "#06B6D4",
     "accent": "#059669"
   },
   "contact": {
-    "phone": "+254700000000",
-    "whatsapp": "+254700000000",
-    "email": "info@afyaray.com",
-    "address": "CK Building, next to Total, Ongata Rongai"
+    "phone": "+254722123456",
+    "whatsapp": "+254722123456",
+    "email": "info@afyaraywellness.com",
+    "address": "CK Building, next to Total Petrol Station, Ongata Rongai"
   },
   "services": [
-    "Cysts",
-    "Heart conditions", 
-    "Numbness / nerve issues",
-    "Diabetes",
-    "Hypertension",
-    "Body pain",
-    "Aging",
-    "Arthritis", 
-    "Fibroids",
-    "Full body composition analysis + Supplements"
+    {
+      "name": "Cysts Treatment",
+      "description": "Light therapy reduces inflammation and promotes natural cyst dissolution through targeted cellular regeneration."
+    },
+    {
+      "name": "Heart Conditions",
+      "description": "Improves circulation and supports cardiovascular health by enhancing cellular oxygen uptake and blood flow."
+    },
+    {
+      "name": "Numbness & Nerve Issues",
+      "description": "Stimulates nerve regeneration and improves neural pathways to restore sensation and function."
+    },
+    {
+      "name": "Diabetes Management",
+      "description": "Enhances cellular glucose metabolism and improves insulin sensitivity through photobiomodulation."
+    },
+    {
+      "name": "Hypertension",
+      "description": "Promotes vasodilation and improves blood vessel elasticity to naturally lower blood pressure."
+    },
+    {
+      "name": "Body Pain Relief",
+      "description": "Reduces inflammation and triggers endorphin release for natural, long-lasting pain management."
+    },
+    {
+      "name": "Anti-Aging Therapy",
+      "description": "Stimulates collagen production and cellular renewal to reduce signs of aging and improve skin health."
+    },
+    {
+      "name": "Arthritis Treatment",
+      "description": "Reduces joint inflammation and promotes cartilage repair for improved mobility and pain relief."
+    },
+    {
+      "name": "Fibroids Treatment",
+      "description": "Promotes hormonal balance and reduces fibroid size through targeted light therapy protocols."
+    },
+    {
+      "name": "Body Composition Analysis",
+      "description": "Comprehensive assessment of muscle mass, fat percentage, and metabolic health with personalized recommendations."
+    },
+    {
+      "name": "Nutritional Supplements",
+      "description": "Targeted supplement protocols to support your healing journey and optimize treatment results."
+    }
   ],
-  "bookingUrl": "https://calendar.google.com/calendar/appointments/schedules/YOUR_SCHEDULE_ID"
+  "bookingUrl": "#booking-form",
+  "analytics": {
+    "googleAnalyticsId": null
+  }
 }

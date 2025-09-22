@@ -28,7 +28,10 @@ function generateBrand(brandSlug) {
       "Service 1",
       "Service 2"
     ],
-    bookingUrl: "https://calendar.google.com/calendar/appointments/schedules/YOUR_SCHEDULE_ID"
+    bookingUrl: "#booking-form",
+    analytics: {
+      googleAnalyticsId: null
+    }
   }
   
   const configPath = path.join(brandDir, 'config.json')

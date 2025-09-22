@@ -19,15 +19,27 @@ A Next.js template for creating multi-brand health and wellness websites with dy
    npm install
    ```
 
-2. **Run development server:**
+2. **Configure environment (optional):**
+   ```bash
+   cp .env.example .env.local
+   # Edit .env.local with your configuration
+   ```
+
+3. **Run development server:**
    ```bash
    npm run dev
    ```
 
-3. **Generate new brand:**
+4. **Generate new brand:**
    ```bash
    npm run generate new-brand-slug
    ```
+
+## Environment Variables
+
+- `BRAND_SLUG`: Which brand configuration to use (defaults to 'afya-ray')
+- `FORMSPREE_FORM_ID`: Your Formspree form ID for booking submissions
+- Add Google Analytics ID to brand config if needed
 
 ## Brand Configuration
 
@@ -51,7 +63,10 @@ Each brand is configured via `brands/{slug}/config.json`:
     "address": "Your address"
   },
   "services": ["Service 1", "Service 2"],
-  "bookingUrl": "https://calendar.google.com/..."
+  "bookingUrl": "#booking-form",
+  "analytics": {
+    "googleAnalyticsId": null
+  }
 }
 ```
 
