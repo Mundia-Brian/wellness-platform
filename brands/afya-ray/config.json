@@ -1,0 +1,30 @@
+{
+  "name": "Afya Ray Wellness",
+  "slug": "afya-ray",
+  "tagline": "Photo/Light Therapy for Natural Body Recovery",
+  "description": "Proven results in treating cysts, heart conditions, numbness, diabetes, hypertension, body pain, aging, arthritis, fibroids and other health conditions.",
+  "colors": {
+    "primary": "#10B981",
+    "secondary": "#06B6D4",
+    "accent": "#059669"
+  },
+  "contact": {
+    "phone": "+254700000000",
+    "whatsapp": "+254700000000",
+    "email": "info@afyaray.com",
+    "address": "CK Building, next to Total, Ongata Rongai"
+  },
+  "services": [
+    "Cysts",
+    "Heart conditions", 
+    "Numbness / nerve issues",
+    "Diabetes",
+    "Hypertension",
+    "Body pain",
+    "Aging",
+    "Arthritis", 
+    "Fibroids",
+    "Full body composition analysis + Supplements"
+  ],
+  "bookingUrl": "https://calendar.google.com/calendar/appointments/schedules/YOUR_SCHEDULE_ID"
+}
