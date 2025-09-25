@@ -13,6 +13,7 @@ export async function POST(request) {
       )
     }
     
+    // Send to ken@afya.top via Formspree
     const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
       method: 'POST',
       headers: {
@@ -22,6 +23,7 @@ export async function POST(request) {
         ...formData,
         _replyto: formData.email,
         _subject: `New Booking Request from ${formData.name}`,
+        _to: 'ken@afya.top',
       }),
     })
     

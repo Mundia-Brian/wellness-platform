@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "generate": "node scripts/generate-brand.js"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "generate": "node scripts/generate-brand.js",
+    "analyze": "ANALYZE=true npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
     "next": "^14.2.32",
