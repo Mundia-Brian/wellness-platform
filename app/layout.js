@@ -1,6 +1,5 @@
 import './globals.css'
 import { getBrandConfig } from '../lib/brand'
-import Chatbot from '../components/Chatbot'
 
 function generateMetadata() {
   const brand = getBrandConfig()
@@ -57,7 +56,6 @@ export default function RootLayout({ children }) {
       </head>
       <body className="antialiased">
         {children}
-        <Chatbot />
       </body>
     </html>
   )
