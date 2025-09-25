@@ -1,5 +1,5 @@
 export default function Hero({ brand }) {
-  const whatsappUrl = `https://wa.me/${brand.contact.whatsapp.replace(/[^0-9]/g, '')}`
+  const whatsappUrl = brand.whatsapp
   
   return (
     <section className="bg-gradient-to-r from-green-500 to-cyan-500 text-white py-20">

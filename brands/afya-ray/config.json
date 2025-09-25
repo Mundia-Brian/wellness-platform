@@ -9,11 +9,11 @@
     "accent": "#059669"
   },
   "contact": {
-    "phone": "0708099688",
-    "whatsapp": "0708099688",
+    "phone": "tel:+254708099688",
     "email": "ken@afya.top",
     "address": "Cikei Center, Ongata Rongai"
   },
+  "whatsapp": "https://wa.me/254708099688",
   "services": [
     {
       "name": "Cysts Treatment",
